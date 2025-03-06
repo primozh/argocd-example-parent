@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: nonprod-qa
+spec:
+  sourceRepos:
+    - 'https://github.com/primozh/argocd-example-apps'
+  destinations:
+    - namespace: 'qa'
+    - server: '*'
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
