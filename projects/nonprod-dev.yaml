@@ -7,7 +7,7 @@ spec:
     - 'https://github.com/argoproj/argocd-example-apps'
     - 'https://github.com/primozh/argocd-example-parent'
   destinations:
-    - namespace: 'dev'
+    - namespace: '*'
       server: '*'
   clusterResourceWhitelist:
   - group: '*'

@@ -11,6 +11,6 @@ spec:
     name: in-cluster
   project: nonprod-dev
   source:
-    path: guestbook
+    path: helm-guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
