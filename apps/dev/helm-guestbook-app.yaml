@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: dev
-    name: kind-kind
+    name: in-cluster
   project: nonprod-dev
   source:
     path: helm-guestbook
