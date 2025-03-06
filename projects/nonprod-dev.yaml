@@ -5,6 +5,7 @@ metadata:
 spec:
   sourceRepos:
     - 'https://github.com/argoproj/argocd-example-apps'
+    - 'https://github.com/primozh/argocd-example-parent'
   destinations:
     - namespace: 'dev'
     - server: '*'
