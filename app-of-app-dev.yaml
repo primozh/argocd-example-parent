@@ -8,9 +8,8 @@ metadata:
 spec:
   destination:
     namespace: dev
-    name: in-cluster
+    name: kind-kind
   project: nonprod-dev
   source:
     path: apps/dev
     repoURL: https://github.com/primozh/argocd-example-parent
-    targetRevision: HEAD
