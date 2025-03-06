@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: helm-guestbook-app-dev
-  namespace: dev
+  namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -11,6 +11,6 @@ spec:
     name: in-cluster
   project: nonprod-dev
   source:
-    path: helm-guestbook
+    path: guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
