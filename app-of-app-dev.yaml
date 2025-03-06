@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: dev
     name: in-cluster
-  project: appbundle-project-dev
+  project: nonprod-dev
   source:
     path: apps/dev
     repoURL: https://github.com/primozh/argocd-example-parent
